@@ -105,7 +105,7 @@ margin: auto;
     
     .content-carrousel figure {
         width: 100%;
-        height: auto;
+        height: 200px;
         overflow: hidden;
         position:absolute;
         box-shadow: 0px 0px 20px 0px black;
