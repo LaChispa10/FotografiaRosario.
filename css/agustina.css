@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:serif ;
+}
+.contenedorr{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+nav{
+    top: 0;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(223, 204, 240);
+    font-size: 20px;
+    gap: 1rem;
+    position:absolute;
+    opacity: 0.70;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+justify-content: space-between;
+
+}
+.menu-horizontal>li>a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.menu-horizontal>li:hover{
+    background-color: rgb(229, 179, 247);
+padding: 2px;
+margin: auto;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 154px;
+    background-color: rgb(228, 175, 245);
+
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: rgb(182, 103, 255);
+}
+.menu-vertical li a{
+    display: block;
+    color:white;
+    padding: 10px  ;
+    text-decoration:none ;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}.logo{
+    left: 100px;
+   }
+
+   .logo img{
+       height: 70px;
+       width: 70px;
+   }
+
+.contenedor{
+    width: 100%;
+   display:block;
+   max-width: 800px;
+
+}
+
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+
+}
+.card:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+
+}
+.card img{
+    width: 100%;
+    height: 50%;
+}
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido h3{
+    text-decoration-line: underline;
+    margin-bottom: 15px;
+}
+.card .contenido p{
+    line-height: 1.5;
+}
+.card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(182, 103, 255);
+    border: 1px solid rgb(182, 103, 255);
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+.card .contenido a:hover{
+    background: rgb(182, 103, 255);
+    color:#fff;
+    
+}
