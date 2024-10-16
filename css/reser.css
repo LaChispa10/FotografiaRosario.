@@ -81,6 +81,7 @@ form{
     border-radius: 20px;
     text-align: center;
     width: 340px;
+    columns: black;
 }
 .input-g{
     display: flex;
