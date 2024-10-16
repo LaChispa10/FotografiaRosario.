@@ -89,8 +89,9 @@ form{
     text-align: left;
 }
 h2{
-    color: rgb(182, 103, 255);
+    color: black;
     font-size: 35px;
+    
 }
 label{
     color: black;
